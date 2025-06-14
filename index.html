@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Basketball Scoreboard</h1>
+            <p1> Home </p1>
+            <p2 > Guest </p2>
+            <h2 id="count-el1">0</h2>
+            <p id="foul-el1">0</p>
+            <br>
+            <h3 id="count-el2">0</h3>
+            <p id="foul-el2">0</p>
+            <br>
+            <p id="game-clock">12:00</p>
+            <p id="shot-clock">24</p>
+            <br>
+            <br>
+        </div>
+        <div class="score-el" id="clock">
+        </div>  
+        <br>
+        <div class="container2">
+            <button id="increment-btn1" onclick="increment1()">+1</button>
+            <button id="increment-btn2" onclick="increment2()">+2</button>
+            <button id="increment-btn3" onclick="increment3()">+3</button>
+
+            <button id="increment-btn6" onclick="increment6()">+3</button>
+            <button id="increment-btn5" onclick="increment5()">+2</button>
+            <button id="increment-btn4" onclick="increment4()">+1</button>
+        </div>
+            <button id="game-clock-btn" onclick="toggleGameClock()">GAME<br>CLOCK</button>  
+            
+        <div class="container3"> 
+            <button id="foul1-btn" onclick="foul1()">HOME<br>FOUL</button>
+            <button id="foul2-btn" onclick="foul2()">GUEST<br>FOUL</button>
+            <button id="shot-clock-btn" onclick="clockDown()">SHOT<br>CLOCK</button>
+            <br>
+            <button id="all-clock-btn" onclick="toggleAllClocks()">GAME/<br>SHOT</button>
+            <br>
+        
+        
+        </div>  
+        <button id="reset-clock-btn" onclick="resetShotClock()">RESET</button>
+        <br>
+        <script src="index.js">
+            nnerText
+        </script>
+    </body>
+</html>

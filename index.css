@@ -1,0 +1,391 @@
+body {
+    background-size: cover;
+    font-family: mon;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    background-color: slategray;
+    width: 360px;
+    height: 275px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 16px double darkblue;
+    border-radius: 10px;
+    outline-style: double;
+    outline-width: 9px;
+    outline-color: black;
+}
+
+h1 {
+    font-size: 29px;
+    color:white;
+    background-color: rgb(0,0, 0,.4);
+    text-shadow: 4px 4px 4px darkred;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    font-family:monospace;
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 35px;
+    text-align: center;
+}
+
+p1{
+ font-size: 35px;
+ float: left;
+ padding-top: 3px;
+ margin: auto;
+ margin-left: 35px;
+ margin-top: 5px;
+ color: darkblue;
+ text-shadow: 1px 1px 1px black;
+}
+
+p2{
+  font-size: 35px;
+  float: right;
+  padding-top: 3px;
+  padding-right: 1px;
+  margin-right: 35px;
+  margin-top: 5px;
+  color: darkred;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+h2 {
+    font-size: 85px;
+    background: black;
+    color: green;
+    /* margin: auto; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-right: 5px; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: left;
+    margin-left: 30px;
+    font-family: monospace;
+    border: 4px double darkblue;
+    border-width: 8px;
+    height: 100px;
+    width: 80px;
+}
+
+h3 {
+    font-size: 85px;
+    background: black;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: right;
+    margin-right: 30px;
+    font-family:monospace;
+    border: 4px double darkred;
+    border-width: 8px;
+    height: 100px;
+    width: 80px;
+}
+
+#score-el {
+    background-color: rgb(255,255, 255,.2);
+    font-family: cursive;
+    border: 6px solid black;
+    font-weight: bold;
+    height: 120px;
+    width: 305px;
+    margin-bottom: 10px;
+    margin: auto;
+
+ }
+
+  .score-el:hover{
+    color: darkblue;
+    /* background: darkred; */
+    text-shadow: 1px 1px 10px darkred;
+    transition: 0.3s;
+}
+ #foul-el1{
+    background: black;
+    color: green;
+    text-shadow: 0px 0px 10px darkred;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    float: left;
+    margin-left: 5px;
+    border: 2px solid darkblue;
+    width: 20px;
+}
+#foul-el2{
+    background-color: black;
+    color: green;
+    text-shadow: 0px 0px 10px darkgreen;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: auto;
+    margin-top: 70px;
+    /* margin-bottom: 30px; */
+    float: right;
+    margin-right: 5px;
+    border: 2px solid darkred;
+    width: 20px;
+}
+
+#game-clock {
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: auto;
+    margin-top: 25px;
+    /* margin-left: 160px; */
+    /* margin-right: 45px; */
+    border: 2px solid darkblue;
+    height: 20px;
+    width: 40px;
+}
+
+
+ #clock {
+    margin-top: 17px;
+ }
+
+ #shot-clock {
+    font-size: 20px;
+    color: green;
+    background: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: auto;
+    /* margin-top: 1px; */
+    margin-right: 20px;
+    font-family: monospace;
+    border: solid darkred;
+    border-width: 8px;
+    height: 25px;
+    width: 45px;
+    float: right;
+ }
+
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: auto;
+    cursor: pointer;
+    border: 8px double darkred;
+    font-weight: bold;
+}
+
+button:hover{
+    color: darkblue;
+    background: darkred;
+    text-shadow: 1px 1px 10px darkgoldenrod;
+    transition: 0.5s;
+}
+
+#all-clock-btn{
+    border: 8px double darkblue;
+    font-size: 10px;
+    width: 80px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+
+#increment-btn1 {
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(0, 0, 175,.9);
+    background: black;
+    border: 4px solid;
+    height: 45px;
+    float: left;
+    margin-left: 3%;
+}
+
+#increment-btn2 {
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(0, 0, 175,.9);
+    background: black;
+    border: 4px solid;
+    float: left;
+    height: 45px;
+    margin-left: 3%;
+}    
+
+#increment-btn3 {
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(0, 0, 176,.9);
+    background: black;
+    border: 4px solid;
+    float: left;
+    height: 45px;
+    margin-left: 3%;
+}
+
+#increment-btn4 {
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(245, 0, 0,.9);
+    background: black;
+    border: 4px solid;
+    height: 45px;
+    float: right;
+    margin-right: 3%;
+}
+
+#increment-btn5 {
+    font-family:monospace;
+    font-size: 16px;
+    color: rgb(245,0 , 0,.9);
+    background: black;
+    border: 4px solid;
+    height: 45px;
+    float: right;
+    margin-right: 3%;
+}
+
+#increment-btn6 {
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(245, 0, 0,.9);
+    background: black;
+    border: 4px solid;
+    height: 45px;
+    float: right;
+    margin-right: 3%;
+}        
+
+#increment-btn1:hover {
+    background-color: blue;
+    color:black
+}
+
+#increment-btn2:hover {
+    background-color: blue;
+    color:black
+}
+
+#increment-btn3:hover {
+    background-color: blue;
+    color:black
+}
+
+#increment-btn4:hover {
+    background-color: rgb(245, 0, 0,.9);
+    color:black
+}
+
+#increment-btn5:hover {
+    background-color: rgb(245, 0, 0,.9);
+    color:black
+}
+
+#increment-btn6:hover {
+    background-color: rgb(245, 0, 0,.9);
+    color:black
+}
+
+
+.container3{
+    background-color: darkgrey;
+    max-width: 350px;
+    height: 137px;
+    margin: auto;
+    border: 10px double black;
+    border-radius: 80px;
+    /* outline-style: double; */
+    /* outline-color: black; */
+    /* outline-width: 10px; */
+}
+
+
+.container2{
+    background-color: rgb(0, 0,190,.3);
+    width: 450px;
+    height: 45px;
+    margin: auto;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+
+ 
+#game-clock-btn {
+    border: 8px double darkblue;
+    font-size: 10px;
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+ #shot-clock-btn {
+    border: 8px double blue;
+    font-size: 12px;
+    font-family: ui-monospace;
+    width: 75px;
+    height: 62px;
+    background-color: gray;
+ }
+
+ #shot-clock-btn {border: 8px double darkred;background: whitesmoke;font-size: 12px;color: darkblue;font-family: ui-monospace;margin-bottom: 5px;width: 75px;height: 62px;} 
+
+
+ #reset-clock-btn {
+    border: 8px double darkred;
+    font-weight: bold;
+    font-size: 10px;
+    width: 65px;
+    color: red;
+    background-color: darkblue;
+    font-family: monospace;
+    margin: 15px;
+ } 
+
+ 
+#foul1-btn {
+    border: 8px double darkblue;
+    color: darkblue;
+    font-size: 10px;
+    width: 65px;
+    float: left;
+    margin-left: 28px;
+    margin-top: 35px;
+}
+#foul2-btn {
+    border: 8px double darkblue;
+    font-size: 10px;
+    width: 65px;
+    float: right;
+    margin-right: 28px;
+    margin-top: 35px;
+}
+
+
